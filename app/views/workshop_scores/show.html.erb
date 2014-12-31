@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Users:</strong>
+  <%= @workshop_score.users_id %>
+</p>
+
+<p>
+  <strong>Workshops:</strong>
+  <%= @workshop_score.workshops_id %>
+</p>
+
+<p>
+  <strong>Score:</strong>
+  <%= @workshop_score.score %>
+</p>
+
+<%= link_to 'Edit', edit_workshop_score_path(@workshop_score) %> |
+<%= link_to 'Back', workshop_scores_path %>

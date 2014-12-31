@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  users_id: 1
+  red: 1.5
+  yellow: 1.5
+  green: 1.5
+  blue: 1.5
+
+two:
+  users_id: 1
+  red: 1.5
+  yellow: 1.5
+  green: 1.5
+  blue: 1.5

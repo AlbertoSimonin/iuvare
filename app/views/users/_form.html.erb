@@ -1,0 +1,65 @@
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id_iuvare %><br>
+    <%= f.number_field :id_iuvare %>
+  </div>
+  <div class="field">
+    <%= f.label :id_xango %><br>
+    <%= f.number_field :id_xango %>
+  </div>
+  <div class="field">
+    <%= f.label :id_iuvare_sponsor %><br>
+    <%= f.number_field :id_iuvare_sponsor %>
+  </div>
+  <div class="field">
+    <%= f.label :id_xango_sponsor %><br>
+    <%= f.number_field :id_xango_sponsor %>
+  </div>
+  <div class="field">
+    <%= f.label :id_iuvare_placement %><br>
+    <%= f.number_field :id_iuvare_placement %>
+  </div>
+  <div class="field">
+    <%= f.label :id_xango_placement %><br>
+    <%= f.number_field :id_xango_placement %>
+  </div>
+  <div class="field">
+    <%= f.label :uid %><br>
+    <%= f.text_field :uid %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :lastname %><br>
+    <%= f.text_field :lastname %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br>
+    <%= f.text_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :picture %><br>
+    <%= f.text_field :picture %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

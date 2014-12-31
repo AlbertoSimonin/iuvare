@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  speaker: MyString
+  length: 2014-12-29 19:18:25
+  source: MyString
+
+two:
+  speaker: MyString
+  length: 2014-12-29 19:18:25
+  source: MyString

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Users:</strong>
+  <%= @personality.users_id %>
+</p>
+
+<p>
+  <strong>Red:</strong>
+  <%= @personality.red %>
+</p>
+
+<p>
+  <strong>Yellow:</strong>
+  <%= @personality.yellow %>
+</p>
+
+<p>
+  <strong>Green:</strong>
+  <%= @personality.green %>
+</p>
+
+<p>
+  <strong>Blue:</strong>
+  <%= @personality.blue %>
+</p>
+
+<%= link_to 'Edit', edit_personality_path(@personality) %> |
+<%= link_to 'Back', personalities_path %>

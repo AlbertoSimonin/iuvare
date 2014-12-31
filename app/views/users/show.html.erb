@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id iuvare:</strong>
+  <%= @user.id_iuvare %>
+</p>
+
+<p>
+  <strong>Id xango:</strong>
+  <%= @user.id_xango %>
+</p>
+
+<p>
+  <strong>Id iuvare sponsor:</strong>
+  <%= @user.id_iuvare_sponsor %>
+</p>
+
+<p>
+  <strong>Id xango sponsor:</strong>
+  <%= @user.id_xango_sponsor %>
+</p>
+
+<p>
+  <strong>Id iuvare placement:</strong>
+  <%= @user.id_iuvare_placement %>
+</p>
+
+<p>
+  <strong>Id xango placement:</strong>
+  <%= @user.id_xango_placement %>
+</p>
+
+<p>
+  <strong>Uid:</strong>
+  <%= @user.uid %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @user.lastname %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @user.password %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @user.picture %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

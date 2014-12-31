@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_iuvare: 1
+  id_xango: 1
+  id_iuvare_sponsor: 1
+  id_xango_sponsor: 1
+  id_iuvare_placement: 1
+  id_xango_placement: 1
+  uid: MyString
+  name: MyString
+  lastname: MyString
+  email: MyString
+  password: MyString
+  picture: MyString
+
+two:
+  id_iuvare: 1
+  id_xango: 1
+  id_iuvare_sponsor: 1
+  id_xango_sponsor: 1
+  id_iuvare_placement: 1
+  id_xango_placement: 1
+  uid: MyString
+  name: MyString
+  lastname: MyString
+  email: MyString
+  password: MyString
+  picture: MyString

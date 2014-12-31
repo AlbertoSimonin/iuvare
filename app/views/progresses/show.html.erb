@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Users:</strong>
+  <%= @progress.users_id %>
+</p>
+
+<p>
+  <strong>Call:</strong>
+  <%= @progress.call %>
+</p>
+
+<p>
+  <strong>Preplan:</strong>
+  <%= @progress.preplan %>
+</p>
+
+<p>
+  <strong>Plan:</strong>
+  <%= @progress.plan %>
+</p>
+
+<p>
+  <strong>Closure:</strong>
+  <%= @progress.closure %>
+</p>
+
+<p>
+  <strong>Tracking:</strong>
+  <%= @progress.tracking %>
+</p>
+
+<%= link_to 'Edit', edit_progress_path(@progress) %> |
+<%= link_to 'Back', progresses_path %>

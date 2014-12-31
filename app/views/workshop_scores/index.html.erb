@@ -1,0 +1,29 @@
+<h1>Listing workshop_scores</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Users</th>
+      <th>Workshops</th>
+      <th>Score</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @workshop_scores.each do |workshop_score| %>
+      <tr>
+        <td><%= workshop_score.users_id %></td>
+        <td><%= workshop_score.workshops_id %></td>
+        <td><%= workshop_score.score %></td>
+        <td><%= link_to 'Show', workshop_score %></td>
+        <td><%= link_to 'Edit', edit_workshop_score_path(workshop_score) %></td>
+        <td><%= link_to 'Destroy', workshop_score, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Workshop score', new_workshop_score_path %>
